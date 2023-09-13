@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <Banner buttonText={"test title"} />
+        <Banner buttonText={"Notify Me"} />
       </main>
     </div>
   );
