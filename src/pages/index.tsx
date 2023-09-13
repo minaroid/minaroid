@@ -24,15 +24,10 @@ const Home = () => {
       setRemainingTime(
         days + "d " + hours + "h " + minutes + "m " + seconds + "s "
       );
-      // console.log();
-      // Display the result in an element with id="demo"
-      // document.getElementById("demo").innerHTML =
-      // days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
       // If the count down is finished, write some text
       if (distance < 0) {
         clearInterval(x);
-        // document.getElementById("demo").innerHTML = "EXPIRED";
       }
     }, 1000);
   }, [countDownDate, setRemainingTime]);
@@ -42,7 +37,7 @@ const Home = () => {
       <div className={styles.middle}>
         <h1>COMING SOON</h1>
         <hr style={{ width: "40%" }}></hr>
-        <p>{remainingTime}</p>
+        <p style={{ fontSize: 20 }}>{remainingTime}</p>
       </div>
     </div>
   );
