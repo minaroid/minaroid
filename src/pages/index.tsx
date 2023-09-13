@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const Home = () => {
   const countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
-  const [remainingTime, setRemainingTime] = useState("");
+  const [remainingTime, setRemainingTime] = useState("0d 0h 0m 0s");
 
   useEffect(() => {
     var x = setInterval(function () {
@@ -40,9 +40,9 @@ const Home = () => {
   return (
     <div className={styles.bgimg}>
       <div className={styles.middle}>
-        <p>{remainingTime}</p>
         <h1>COMING SOON</h1>
-        <br></br>
+        <hr style={{ width: "40%" }}></hr>
+        <p>{remainingTime}</p>
       </div>
     </div>
   );

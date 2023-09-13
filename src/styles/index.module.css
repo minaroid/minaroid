@@ -7,10 +7,6 @@
 }
 
 .bgimg {
-  /* Background image */
-  background: rgb(255, 42, 0);
-  /* background: url("/static/background.png"); */
-  /* Full-screen */
   height: 100%;
   /* Center the background image */
   background-position: center;
@@ -33,9 +29,3 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-/* Style the <hr> element */
-/* hr {
-  margin: auto;
-  width: 40%; */
-/* } */
