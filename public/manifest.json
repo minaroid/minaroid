@@ -1,7 +1,7 @@
 {
   "name": "Minaroid",
   "short_name": "Minaroid",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "orientation": "portrait-primary",
   "icons": [
