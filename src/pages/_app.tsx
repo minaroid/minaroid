@@ -44,6 +44,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
+        <link rel="shortcut icon" href="/static/favicon.ico" />
+        <link rel="icon" href="/static/favicon.ico" />
+        <link rel="apple-touch-icon" href="/public/static/logo192.png" />
         {/* <meta name="theme-color" content="#000000" /> */}
         {/* <link rel="manifest" href="/manifest.json" /> */}
         {/* <link rel="apple-touch-icon" href="/apple-touch-icon.png" /> */}
