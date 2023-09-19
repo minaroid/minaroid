@@ -44,10 +44,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
-        <meta name="theme-color" content="#000000" />
+        {/* <meta name="theme-color" content="#000000" /> */}
         <link rel="manifest" href="/manifest.json" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="apple-mobile-web-app-status-bar" content="#90cdf4" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+        {/* <meta name="apple-mobile-web-app-status-bar" content="#90cdf4" /> */}
         <meta
           name="keywords"
           content="minaroid,software,engineer,android,ios,aws,serverless,micro services,flutter"
