@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
         <meta name="theme-color" content="#000000" />
-        <link rel="icon" href="/static/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="keywords"
           content="minaroid,software,engineer,android,ios,aws,serverless,micro services,flutter"
