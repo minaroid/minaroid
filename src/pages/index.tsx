@@ -1,9 +1,8 @@
-import Banner from "@/components/home/home.banner";
 import styles from "../styles/index.module.css";
 import { useEffect, useState } from "react";
 
 const Home = () => {
-  const countDownDate = new Date("Sep 31, 2023 00:00:00").getTime();
+  const countDownDate = new Date("Dec 31, 2023 00:00:00").getTime();
   const [remainingTime, setRemainingTime] = useState("0d 0h 0m 0s");
 
   useEffect(() => {

@@ -1,6 +1,9 @@
 {
   "name": "Minaroid",
   "short_name": "Minaroid",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -19,6 +22,5 @@
     }
   ],
   "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  "background_color": "#ffffff"
 }
