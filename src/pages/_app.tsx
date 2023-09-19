@@ -47,11 +47,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="shortcut icon" href="/static/favicon.ico" />
         <link rel="icon" href="/static/favicon.ico" />
         <link rel="apple-touch-icon" href="/public/static/logo192.png" />
-        {/* <meta name="theme-color" content="#000000" /> */}
-        {/* <link rel="manifest" href="/manifest.json" /> */}
-        {/* <link rel="apple-touch-icon" href="/apple-touch-icon.png" /> */}
-
-        {/* <meta name="apple-mobile-web-app-status-bar" content="#90cdf4" /> */}
+        <meta name="theme-color" content="#000000" />
+        <meta name="apple-mobile-web-app-status-bar" content="#000000" />
         <meta
           name="keywords"
           content="minaroid,software,engineer,android,ios,aws,serverless,micro services,flutter"
