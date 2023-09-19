@@ -46,6 +46,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta name="theme-color" content="#000000" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="apple-mobile-web-app-status-bar" content="#90cdf4" />
         <meta
           name="keywords"
           content="minaroid,software,engineer,android,ios,aws,serverless,micro services,flutter"
