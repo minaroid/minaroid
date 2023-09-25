@@ -27,9 +27,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <DefaultSeo
         {...{
-          title: "Minaroid",
+          title: "Minaroid - Mina George (Software Engineer)",
           description:
-            "Experienced software engineer with 5 years of experience in mobile and web development, specializing in fintech, e-commerce, healthcare, and entertainment industries. I have worked with cross-functional teams and agile methodologies to deliver high-quality software solutions. Proficient in serverless and microservices architectures, I have utilized various programming languages and cloud computing platforms to develop scalable and secure applications. My passion lies in delivering innovative solutions that align with business objectives and exceed customer expectations. I am dedicated to staying updated with the latest trends and technologies in software engineering to ensure continuous growth and improvement.",
+            "Experienced software engineer with 5 years of experience in mobile and web development, specializing in fintech, e-commerce, healthcare, and entertainment industries.",
           openGraph: {
             type: "website",
             locale: "en_US",
