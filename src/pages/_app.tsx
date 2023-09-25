@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           openGraph: {
             type: "website",
             locale: "en_US",
-            site_name: "Minaroid",
+            site_name: "Minaroid - Mina George (Software Engineer)",
             images: [],
           },
         }}
@@ -44,8 +44,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
-        <link rel="shortcut icon" href="/static/favicon.ico" />
-        <link rel="icon" href="/static/favicon.ico" />
+        <link rel="shortcut icon" href="/static/favicon.ico" sizes="16x16" />
+        <link rel="icon" href="/static/favicon.ico" sizes="16x16" />
         <link rel="apple-touch-icon" href="/static/favicon.ico" sizes="16x16" />
         <meta name="theme-color" content="#000000" />
         <meta name="apple-mobile-web-app-status-bar" content="#000000" />
